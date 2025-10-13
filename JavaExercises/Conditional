@@ -1,0 +1,42 @@
+Program 1 
+public class Main{
+    public static void main(String[] args) {
+        int number = 10;
+
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        }
+    }
+}
+
+
+Program 2
+public class Main{
+    public static void main(String[] args) {
+        int number = 7;
+
+        if (number % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+    }
+}
+
+
+
+Program 3
+public class Main {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c = 15;
+
+        if (a > b && a > c) {
+            System.out.println("a is the largest.");
+        } else if (b > c) {
+            System.out.println("b is the largest.");
+        } else {
+            System.out.println("c is the largest.");
+        }
+    }
+}
+
