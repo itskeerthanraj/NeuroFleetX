@@ -1,0 +1,76 @@
+Program 1
+class Student {
+    String name;
+    int age;
+
+    Student() {
+        name = "Keerthan";
+        age = 20;
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        student1.display();
+    }
+}
+
+Program 2
+class Car {
+    String model;
+    int year;
+
+    Car(String m, int y) {
+        model = m;
+        year = y;
+    }
+
+    void showDetails() {
+        System.out.println("Model: " + model);
+        System.out.println("Year: " + year);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car car1 = new Car("Tesla", 2025);
+        Car car2 = new Car("BMW", 2023);
+        car1.showDetails();
+        car2.showDetails();
+    }
+}
+
+Program 3
+class Employee {
+    String name;
+    double salary;
+
+    Employee(String n) {
+        name = n;
+        salary = 50000;
+    }
+
+    Employee(String n, double s) {
+        name = n;
+        salary = s;
+    }
+
+    void displayInfo() {
+        System.out.println("Name: " + name + ", Salary: " + salary);
+    }
+}
+
+public class Main{
+    public static void main(String[] args) {
+        Employee emp1 = new Employee("John");
+        Employee emp2 = new Employee("Jacob", 75000);
+        emp1.displayInfo();
+        emp2.displayInfo();
+    }
+}
