@@ -1,0 +1,91 @@
+1. Introduction to React
+
+React.js is a JavaScript library for building user interfaces (UIs).
+
+Developed and maintained by Meta (Facebook).
+
+Used to build Single Page Applications (SPAs).
+
+Works using components and a Virtual DOM.
+
+Key Features
+
+Component-based architecture
+
+Declarative UI
+
+Virtual DOM for faster updates
+
+Reusable and modular code
+
+One-way (unidirectional) data flow
+
+2. Components
+
+Components are the building blocks of React applications.
+
+They define how a part of the UI should appear and behave.
+
+Components can be Functional or Class-based.
+
+(a) Functional Component
+function Welcome() {
+  return <h1>Hello, World!</h1>;
+}
+
+(b) Class Component
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, World!</h1>;
+  }
+}
+
+3. JSX (JavaScript XML)
+
+JSX allows writing HTML-like code inside JavaScript.
+
+It improves readability and integration between logic and layout.
+
+JSX is transpiled to JavaScript using Babel.
+
+Example
+const element = <h1>Hello, {user.name}</h1>;
+
+4. Virtual DOM
+
+React maintains a virtual representation of the real DOM.
+
+When state changes, React compares the new virtual DOM with the previous one using diffing.
+
+Only the changed parts of the DOM are updated → improves performance.
+
+5. Props (Properties)
+
+Props are read-only attributes passed from parent to child components.
+
+Used for data transfer between components.
+
+Example
+function Greeting(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+<Greeting name="Keerthan" />
+
+6. State
+
+State represents mutable data that can change over time.
+
+When the state changes, the component re-renders automatically.
+
+Example (useState Hook)
+import { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
