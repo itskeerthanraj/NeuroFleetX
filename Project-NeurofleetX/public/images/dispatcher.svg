@@ -1,0 +1,27 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="150" height="150" fill="#f0f4ff" rx="10"/>
+  
+  <!-- Dispatcher circle -->
+  <circle cx="75" cy="50" r="25" fill="#764ba2"/>
+  
+  <!-- Dispatcher head -->
+  <circle cx="75" cy="50" r="12" fill="#764ba2"/>
+  
+  <!-- Headset -->
+  <path d="M 65 48 Q 60 48 60 55 Q 60 62 65 62" stroke="#ffd700" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 85 48 Q 90 48 90 55 Q 90 62 85 62" stroke="#ffd700" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="63" y="60" width="24" height="3" fill="#ffd700" rx="1"/>
+  
+  <!-- Dispatcher body -->
+  <rect x="60" y="70" width="30" height="40" rx="5" fill="#764ba2"/>
+  
+  <!-- Map/Tracking icon -->
+  <g transform="translate(110, 100)">
+    <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#667eea" stroke-width="2" rx="2"/>
+    <circle cx="-5" cy="-5" r="1.5" fill="#667eea"/>
+    <circle cx="3" cy="2" r="1.5" fill="#667eea"/>
+    <circle cx="-2" cy="5" r="1.5" fill="#667eea"/>
+    <circle cx="4" cy="-2" r="1.5" fill="#667eea"/>
+  </g>
+</svg>

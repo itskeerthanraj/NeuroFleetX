@@ -1,0 +1,28 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="150" height="150" fill="#f0f4ff" rx="10"/>
+  
+  <!-- Admin badge -->
+  <circle cx="75" cy="50" r="25" fill="#667eea"/>
+  
+  <!-- Crown on admin -->
+  <g transform="translate(75, 35)">
+    <path d="M -12 -2 L -8 -10 L -2 -6 L 2 -10 L 8 -2" stroke="#ffd700" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-8" cy="-8" r="2" fill="#ffd700"/>
+    <circle cx="0" cy="-10" r="2" fill="#ffd700"/>
+    <circle cx="8" cy="-8" r="2" fill="#ffd700"/>
+  </g>
+  
+  <!-- Admin person body -->
+  <rect x="60" y="70" width="30" height="40" rx="5" fill="#667eea"/>
+  <circle cx="75" cy="68" r="8" fill="#667eea"/>
+  
+  <!-- Settings icon -->
+  <g transform="translate(110, 100)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#764ba2" stroke-width="2"/>
+    <rect x="-1" y="-14" width="2" height="6" fill="#764ba2"/>
+    <rect x="-1" y="8" width="2" height="6" fill="#764ba2"/>
+    <rect x="-14" y="-1" width="6" height="2" fill="#764ba2"/>
+    <rect x="8" y="-1" width="6" height="2" fill="#764ba2"/>
+  </g>
+</svg>
